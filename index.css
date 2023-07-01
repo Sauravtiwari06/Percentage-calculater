@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fffb00
+    
+  }
+  .centered-div {
+    /* Additional styles for the centered div */
+    color: black;
+  }
+  .centered-div th{
+   color: darkblue;
+  }
+  table{
+    border-spacing: 15px;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-shadow: -1px 1px 7px 5px;
+ }
+ button{
+   width: 284px;
+   height: 5vh;
+   margin-top: 1vh;
+ }
+ input{
+   height: 3vh;
+ }
