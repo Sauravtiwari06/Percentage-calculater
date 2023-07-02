@@ -9,6 +9,17 @@ function getpercentage(){
     let persubmarks = 100;
     let totalmarks = persubmarks*6;
     let percentage = (obtainedmarks/totalmarks)*100;
+    percentage = percentage.toFixed(2);
     console.log(percentage);
-}
-
+    let result = document.getElementById('result');
+    result.innerHTML = percentage+ " %";
+    
+    
+    
+    if(result.classList.contains("fade-out")) result.classList.remove('fade-out');
+    
+    result.style.display = "block";
+    setTimeout(function() {
+        result.classList.add("fade-out");
+      }, 5000);
+    }
